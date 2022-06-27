@@ -1,0 +1,44 @@
+<div style="width: 90%; position: relative; margin: auto;">
+    <h1>REGISTRO</h1>
+    <!--id, name, lastname, email, birthday, password, confirmPassword-->
+
+    <label for="staticEmail" class="col-sm-2 col-form-label" style="color: black;">ID Usuario</label>
+    <div class="col-sm-10">
+        <input type="text" class="form-control-plaintext"  style="background-color: white;" #id>
+    </div>
+    <label for="staticEmail" class="col-sm-2 col-form-label" style="color: black;">Nombre</label>
+    <div class="col-sm-10">
+        <input type="text" class="form-control-plaintext"  style="background-color: white;" #name>
+    </div>
+    <label for="staticEmail" class="col-sm-2 col-form-label" style="color: black;">Apellido</label>
+    <div class="col-sm-10">
+        <input type="text" class="form-control-plaintext"  style="background-color: white;" #lastname>
+    </div>
+
+
+    <label for="staticEmail" class="col-sm-2 col-form-label" style="color: black;">Email</label>
+    <div class="col-sm-10">
+        <input type="text" class="form-control-plaintext" id="staticEmail" value="email@example.com" style="background-color: white;" #email>
+    </div>
+
+    <label for="staticEmail" class="col-sm-2 col-form-label" style="color: black;">Cumpleaños</label>
+    <div class="col-sm-10">
+        <input type="text" class="form-control-plaintext"  style="background-color: white;" #birthday>
+    </div>
+
+    <label for="staticEmail" class="col-sm-2 col-form-label" style="color: black;">Password</label>
+    <div class="col-sm-10">
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" style="background-color: white;" #password>
+    </div>
+
+    <label for="staticEmail" class="col-sm-2 col-form-label" style="color: black;">confirmPassword</label>
+    <div class="col-sm-10">
+        <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" style="background-color: white;" #confirmPassword>
+    </div>
+    <br>
+    <br>
+    <button type="button" class="btn btn-outline-light" (click)="send(id, name, lastname, email, birthday, password, confirmPassword)">Registrarse</button> 
+
+    
+
+</div>
